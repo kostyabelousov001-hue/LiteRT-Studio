@@ -1,0 +1,10 @@
+{
+  "model": "litert-lm",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Йо, бро! Ты меня слышишь через API?"
+    }
+  ],
+  "stream": false
+}

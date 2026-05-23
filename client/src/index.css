@@ -1,0 +1,49 @@
+:root {
+  --apple-bg: #000000;
+  --apple-panel: rgba(28, 28, 30, 0.7);
+  --apple-accent: #0A84FF;
+  --apple-text: #FFFFFF;
+  --apple-text-secondary: #8E8E93;
+  --apple-border: rgba(255, 255, 255, 0.15);
+  --apple-glass: blur(25px) saturate(180%) contrast(100%);
+  --apple-bubble-user: #0A84FF;
+  --apple-bubble-bot: #3A3A3C;
+  --sf-font: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, system-ui;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--sf-font);
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("https://db.onlinewebfonts.com/t/62c9434a9930aa24683070440306716a.woff2") format("woff2");
+}
+
+body {
+  background: var(--apple-bg);
+  color: var(--apple-text);
+  overflow: hidden;
+  height: 100vh;
+  letter-spacing: -0.015em;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+
+/* Transitions */
+.sidebar, .settings-panel {
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}

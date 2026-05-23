@@ -1,0 +1,18 @@
+node_modules
+dist
+.env
+.DS_Store
+*.log
+
+# Models (too large for GitHub)
+models/
+client/public/models/
+*.task
+*.webtask
+*.tflite
+*.litertlm
+
+# System/IDE
+.vscode/
+.idea/
+*.local
