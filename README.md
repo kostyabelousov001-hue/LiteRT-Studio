@@ -1,6 +1,6 @@
 # LiteRT Studio / LiteRT WEB AI Interface
 
-> ⚡ **Built with the assistance of [Gemini CLI](https://github.com/google/gemini-cli)** ⚡
+> ⚡ **Built with the assistance of [Gemini CLI](https://github.com/google-gemini/gemini-cli)** ⚡
 
 LiteRT Studio is a high-performance, privacy-first local LLM inference environment powered by Google's LiteRT (formerly TensorFlow Lite) and WebGPU. It runs advanced AI models (like Gemma 2B) directly on your device's hardware, ensuring zero data leaves your machine while delivering blazing-fast token generation.
 
